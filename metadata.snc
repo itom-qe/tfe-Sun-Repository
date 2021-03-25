@@ -1,0 +1,15 @@
+"Metadata": {
+          "SNC::Parameter::Metadata": {
+               "rg":{
+                     "datasource":"ServiceNow::Pools:: ResourceGroupPool.getByLDC"
+                },
+"network":{
+              "datasource":"ServiceNow::Pools::NetworkPool.getObjectsByLDC"
+          },
+          "subnet":{
+              "datasource":"ServiceNow::Pools:: SubnetPool.getObjectsByNetwork",
+              "datasourceFilter":{"Network":"network"}
+          }
+            
+            }
+    }
