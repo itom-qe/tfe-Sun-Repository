@@ -116,7 +116,8 @@ variable "admin_password" {
 variable "team"{
     default = "CPG"
     }
-
+/*
 variable "Group"{
     default = "CPGQE"
     }
+*/
