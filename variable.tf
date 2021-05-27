@@ -113,9 +113,9 @@ variable "admin_password" {
   default     = "admin01!"
 }
 
-variable "team"{
-    default = "CPG"
-    }
+#variable "team"{
+    #default = "CPG"
+    #}
 
 variable "group"{
     default = "CPGQE"
