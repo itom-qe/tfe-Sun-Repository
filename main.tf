@@ -131,6 +131,7 @@ resource "azurerm_virtual_machine" "vm" {
 
   os_profile_windows_config {
   }
+  /*
   tags = {
     environment = "staging"
     #team = var.team
@@ -138,5 +139,6 @@ resource "azurerm_virtual_machine" "vm" {
     project_id = var.project_id
    
   }
+  */
 
 }
