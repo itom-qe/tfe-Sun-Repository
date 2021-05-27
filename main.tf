@@ -133,7 +133,7 @@ resource "azurerm_virtual_machine" "vm" {
   }
   tags = {
     environment = "staging"
-    team = var.team
+    #team = var.team
     Group = var.group
     project_id = var.project_id
    
